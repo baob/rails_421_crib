@@ -46,7 +46,11 @@ group :development, :test do
   gem 'cucumber', '>= 2.0.0'
   gem 'aruba'
   gem 'rspec-rails'
-  gem 'cucumber-rails', require: false
+
+  # version of cucumber-rails chosen to fix 
+  # "invalid option: --no-profile" error referenced here:
+  # https://github.com/netzpirat/guard-cucumber/issues/42
+  gem 'cucumber-rails', require: false, ref: '11608dbef7', git: 'https://github.com/cucumber/cucumber-rails'
   gem 'guard'
   gem 'guard-rspec'
   gem 'guard-cucumber'
