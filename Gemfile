@@ -41,5 +41,17 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'rspec'
+  gem 'cucumber', '>= 2.0.0'
+  gem 'aruba'
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'guard-cucumber'
+  gem 'terminal-notifier-guard'
+
+  gem 'database_cleaner'
 end
 
