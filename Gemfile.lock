@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/cucumber/aruba
+  revision: 51cf61ed9e6ce31ce24014115515b5a3ee8b9832
+  ref: 51cf61ed9e
+  specs:
+    aruba (0.6.2)
+      childprocess (>= 0.3.6)
+      cucumber (>= 1.1.1)
+      rspec-expectations (>= 2.7.0)
+
+GIT
   remote: https://github.com/cucumber/cucumber-rails
   revision: 11608dbef75d90656b0b731ada9b4b9e457f43d7
   ref: 11608dbef7
@@ -49,10 +59,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.0)
-    aruba (0.6.2)
-      childprocess (>= 0.3.6)
-      cucumber (>= 1.1.1)
-      rspec-expectations (>= 2.7.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -249,7 +255,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  aruba
+  aruba!
   byebug
   coffee-rails (~> 4.1.0)
   cucumber (>= 2.0.0)

@@ -44,7 +44,9 @@ group :development, :test do
 
   gem 'rspec'
   gem 'cucumber', '>= 2.0.0'
-  gem 'aruba'
+
+  # specify version of aruba to include rspec integration
+  gem 'aruba', git: 'https://github.com/cucumber/aruba', ref: '51cf61ed9e'
   gem 'rspec-rails'
 
   # version of cucumber-rails chosen to fix 
