@@ -46,7 +46,7 @@ group :development, :test do
   gem 'cucumber', '>= 2.0.0'
   gem 'aruba'
   gem 'rspec-rails'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'guard'
   gem 'guard-rspec'
   gem 'guard-cucumber'
