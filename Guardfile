@@ -77,7 +77,7 @@ guard :rspec, cmd: "bundle exec rspec" do
   end
 end
 
-guard "cucumber" do
+guard "cucumber", command_prefix: 'spring', bundler: false do
   watch(%r{^features/.+\.feature$})
   watch(%r{^features/support/.+$})          { "features" }
 
