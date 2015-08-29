@@ -1,6 +1,6 @@
 # README
 
-This is a repo with rails 4.1.2 generated, with a full set of testing
+This is a repo with rails 4.2.2 generated, with a full set of testing
 gems, compatible and configured.
 
 ## Setup
