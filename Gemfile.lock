@@ -247,7 +247,7 @@ GEM
     uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    web-console (2.1.2)
+    web-console (2.2.1)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
@@ -282,4 +282,4 @@ DEPENDENCIES
   terminal-notifier-guard
   turbolinks
   uglifier (>= 2.7.2)
-  web-console (~> 2.0)
+  web-console (>= 2.1.3)
