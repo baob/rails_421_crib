@@ -67,5 +67,7 @@ group :development, :test do
 
   # Hold rake at below 11.0 - https://stackoverflow.com/questions/35893584/nomethoderror-undefined-method-last-comment-after-upgrading-to-rake-11
   gem 'rake', '< 11.0'
+
+  gem 'loofah', '>= 2.2.3'
 end
 

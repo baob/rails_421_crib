@@ -138,7 +138,7 @@ GEM
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    loofah (2.2.2)
+    loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     lumberjack (1.0.9)
@@ -277,6 +277,7 @@ DEPENDENCIES
   guard-rspec
   jbuilder (~> 2.0)
   jquery-rails (>= 4.0.4)
+  loofah (>= 2.2.3)
   rails (= 4.2.7.1)
   rake (< 11.0)
   rspec
